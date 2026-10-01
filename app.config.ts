@@ -4,22 +4,36 @@ export type Feature = {
 };
 
 export const appConfig = {
-  name: "Your App",
-  description: "Describe your app in one sentence. Devin will fill this in.",
-  emoji: "🚀",
-  accent: "#7c3aed",
+  name: "Flix",
+  description: "Um jogo de carro com o intuito de fazer drift.",
+  emoji: "🏎️",
+  accent: "#f97316",
   upcomingFeatures: [
     {
-      title: "Your first feature",
-      description: "What people will be able to do once it's built.",
+      title: "Pista de treino de drift",
+      description:
+        "Uma pista 2D com física de derrapagem controlada pelo teclado.",
     },
     {
-      title: "Your second feature",
-      description: "Devin will write this list based on your app idea.",
+      title: "Pontuação de drift",
+      description:
+        "Pontos calculados pelo ângulo, velocidade e duração de cada derrapagem.",
     },
     {
-      title: "Your third feature",
-      description: "Each one is a good next prompt for Devin.",
+      title: "Garagem de carros",
+      description: "Escolha entre 3 carros com atributos diferentes.",
+    },
+    {
+      title: "Ranking global",
+      description: "As melhores pontuações de cada piloto logado.",
+    },
+    {
+      title: "Pintura personalizada",
+      description: "Cores e adesivos para deixar o seu carro com a sua cara.",
+    },
+    {
+      title: "Modo fantasma",
+      description: "Corra contra a sua melhor volta registrada.",
     },
   ] satisfies Feature[],
 };
